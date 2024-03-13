@@ -22,13 +22,13 @@ export function initializeFaro(): Faro {
       new TracingInstrumentation(),
       new ReactIntegration({
         router: {
-          version: ReactRouterVersion.V6,
+          version: ReactRouterVersion.V6_Next,
           dependencies: {
-            createRoutesFromChildren,
+            // createRoutesFromChildren,
             matchRoutes,
-            Routes,
-            useLocation,
-            useNavigationType,
+            // Routes,
+            // useLocation,
+            // useNavigationType,
           },
         },
       }),
